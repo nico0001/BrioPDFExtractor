@@ -2,7 +2,5 @@
 .vscode
 .venv
 __pycache__/
-output/*
-!output
 input/*
 !input
