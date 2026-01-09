@@ -1,16 +1,15 @@
 # Brio invoice PDF extractor
 
-## Overview
 The **Brio Invoice PDF Extractor** is a template-based tool designed to extract invoice information from PDF documents efficiently and accurately.
 
 ## Features
 - Extracts invoice details such as **date**, **amount**, **contractant**, **carrier**...
 - Supports both single and batch PDF processing.
 - Generates structured output in **CSV** formats.
-- Handles specific PDF layouts and formats.
+- Handles specifically defined PDF layouts and formats.
 
-## Basic 
-Python 3.0++
+## Basic requirements
+Python 3.6+ tested (3.8+ recommended / still maintained )
 
 ## Setup
 
@@ -23,11 +22,11 @@ cd BrioPDFExtractor
 ```cmd
 python -m venv .venv
 ```
-# Linux/macOS
+### Linux/macOS
 ```cmd
 source .venv/bin/activate
 ```
-# Windows
+### Windows
 ```cmd
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
@@ -41,7 +40,8 @@ pip install -r requirements.txt
 ```
 
 4. Load input folder:
-   Move any desired PDF file(s) in input
+
+Move any desired PDF file(s) in input
 
 5. Run the project:
 ```cmd
