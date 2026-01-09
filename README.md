@@ -28,7 +28,7 @@ source .venv/bin/activate
 ```
 ### Windows
 ```cmd
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ```
 
 ```cmd
