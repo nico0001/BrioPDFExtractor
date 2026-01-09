@@ -1,0 +1,7 @@
+# .gitignore
+.vscode
+.venv
+__pycache__/
+data/
+output/*
+input demo
