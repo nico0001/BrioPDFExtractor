@@ -9,6 +9,9 @@ The **Brio Invoice PDF Extractor** is a template-based tool designed to extract 
 - Generates structured output in **CSV** formats.
 - Handles specific PDF layouts and formats.
 
+## Basic 
+Python 3.0++
+
 ## Setup
 
 1. Clone the repo:
@@ -25,6 +28,10 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 # Windows
+```cmd
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
 ```cmd
 .venv\Scripts\activate
 ```

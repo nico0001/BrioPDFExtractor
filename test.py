@@ -28,6 +28,6 @@ def test_extract(folder="input", output_file="output_combined.csv"):
 
 t0 = time.time()
 #test_pattern()
-test_extract("input demo","output_combined.csv")
+test_extract("input","output_combined.csv")
 #PDFPlumber.extract_data_batch([("DKV","data/organized/DKV/01_DKV.pdf",config.DKV_settings)])
 print(f"Execution time: {time.time() - t0} seconds")
